@@ -120,24 +120,45 @@ public class EnglishUtil
 	public static int getPerson(String pronoun)
 	{
 		if(pronoun.contains(" and "))
+		{
+			String[] persons = splitPersons(pronoun);
+
+			for(String person : persons)
+				if(person.equalsIgnoreCase("i") || person.equalsIgnoreCase("me"))
+					return 4;
+
+			for(String person : persons)
+				if(person.equalsIgnoreCase("you"))
+					return 5;
+
 			return 6;
+		}
 
 		switch(pronoun.toLowerCase())
 		{
 			case "i":
+			case "me":
 				return 1;
 
 			case "you":
 				return 2;
 
 			case "we":
+			case "us":
 				return 4;
 
 			case "they":
+			case "them":
+			case "themselves":
 				return 6;
 
 			default:
 				return 3;
 		}
+	}
+
+	public static String[] splitPersons(String pronoun)
+	{
+		return pronoun.split("(, )|( and )");
 	}
 }

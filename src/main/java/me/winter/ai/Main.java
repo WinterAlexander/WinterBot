@@ -1,3 +1,5 @@
+package me.winter.ai;
+
 import me.winter.ai.AIBot;
 import org.jibble.pircbot.PircBot;
 
@@ -15,7 +17,7 @@ public class Main
 
 		bot.connect("irc.spi.gt");
 
-		//bot.joinChannel("#_");
+		bot.joinChannel("#_");
 		bot.joinChannel("#BotTesting");
 	}
 }

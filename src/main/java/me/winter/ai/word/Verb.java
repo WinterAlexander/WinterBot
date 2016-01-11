@@ -1,4 +1,6 @@
-package me.winter.ai;
+package me.winter.ai.word;
+
+import me.winter.ai.EnglishUtil;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -62,11 +64,7 @@ public interface Verb extends Word
 		{
 			return getInfinitive() + getInfinitive().toCharArray()[getInfinitive().length() - 1] + "ed";
 		}
-		else if(getInfinitive().endsWith("o")
-				|| getInfinitive().endsWith("z")
-				|| getInfinitive().endsWith("sh")
-				|| getInfinitive().endsWith("x")
-				|| getInfinitive().endsWith("ch"))
+		else if(getInfinitive().endsWith("o") || getInfinitive().endsWith("z") || getInfinitive().endsWith("sh") || getInfinitive().endsWith("x") || getInfinitive().endsWith("ch"))
 		{
 			return getInfinitive() + "es";
 		}
@@ -77,7 +75,54 @@ public interface Verb extends Word
 	}
 
 	String getPastForm(int person);
+
 	String getParticiple();
+
+	default boolean isVerb(String conjugatedVerb)
+	{
+		return getSubject(null, null, conjugatedVerb) != null;
+	}
+
+	default String getSubject(VerbTense tense, ConjugationType type, String conjugatedVerb)
+	{
+		String form = tense.getForm(type);
+
+		String formParts[] = form.split(" ");
+		String verbParts[] = conjugatedVerb.split(" ");
+
+		if(formParts.length > verbParts.length)
+			return null;
+
+		if(!form.contains("%subject;"))
+			return null;
+
+		int subjectStartIndex = -1;
+
+		int words = formParts.length;
+
+		for(int i = 0; i < words; i++)
+		{
+			if(formParts[i].contains("%subject;"))
+				subjectStartIndex = i;
+
+			if(formParts[i].contains("%not;"))
+			{
+				if(subjectStartIndex == -1)
+					i++;
+
+				words++;
+			}
+		}
+
+		int subjectWords = verbParts.length - words;
+
+		String subject = verbParts[subjectStartIndex];
+
+		for(int i = 1; i < subjectWords; i++)
+			subject += " " + verbParts[subjectStartIndex + i];
+
+		return subject;
+	}
 
 	default String getIngForm()
 	{
@@ -157,5 +202,11 @@ public interface Verb extends Word
 			default:
 				return null;
 		}
+	}
+
+	@Override
+	default WordType getType()
+	{
+		return WordType.VERB;
 	}
 }

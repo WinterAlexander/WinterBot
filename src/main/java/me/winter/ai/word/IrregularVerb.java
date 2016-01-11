@@ -1,4 +1,6 @@
-package me.winter.ai;
+package me.winter.ai.word;
+
+import me.winter.ai.EnglishUtil;
 
 /**
  *

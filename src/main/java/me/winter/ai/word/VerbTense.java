@@ -1,4 +1,4 @@
-package me.winter.ai;
+package me.winter.ai.word;
 
 import java.util.HashMap;
 import java.util.Map;

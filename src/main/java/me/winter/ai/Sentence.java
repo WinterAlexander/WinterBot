@@ -36,4 +36,9 @@ public class Sentence
 	{
 		return this.sender;
 	}
+
+	public CompoundSentence[] getCompoundSentences()
+	{
+		return new CompoundSentence[]{new CompoundSentence(this, 0)};
+	}
 }

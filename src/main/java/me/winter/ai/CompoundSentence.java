@@ -3,6 +3,7 @@ package me.winter.ai;
 import java.util.LinkedList;
 
 /**
+ *
  * Created by Alexander Winter on 2015-12-01.
  */
 public class CompoundSentence
