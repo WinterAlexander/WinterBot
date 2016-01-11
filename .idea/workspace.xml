@@ -2,89 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c645ac-9a64-492b-8687-95f93234b896" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/ChatCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/Command.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/DotCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/WinterBot$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/WinterBot$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/WinterBot$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/WinterBot$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/WinterBot.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/AIBot.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/CharacterType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/CompoundSentence.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/ConjugationType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/EnglishUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/IrregularVerb$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/IrregularVerb$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/IrregularVerb.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/Memory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/MemoryUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/RegularVerb.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/Sentence.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/SentenceType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/Tense.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/Verb.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/VerbTense.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/WinterBot/me/winter/ai/Word.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ChatCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Command.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DotCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WinterBot$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WinterBot$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WinterBot$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WinterBot$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/WinterBot.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/AIBot.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/CompoundSentence.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/EnglishUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/Memory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/MemoryUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/Sentence.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/SentenceType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/ConjugationType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/IrregularVerb$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/IrregularVerb$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/IrregularVerb.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/RegularVerb.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/Tense.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/Verb.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/VerbTense.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/Word.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/me/winter/ai/word/WordType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Alexander_Winter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WinterBot.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/CharacterType.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/ConjugationType.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/word/ConjugationType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/IrregularVerb.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/word/IrregularVerb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/RegularVerb.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/word/RegularVerb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/Tense.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/word/Tense.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/Verb.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/word/Verb.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/VerbTense.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/word/VerbTense.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/Word.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/word/Word.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/WordType.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/word/WordType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/AIBot.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/AIBot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/CompoundSentence.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/CompoundSentence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/EnglishUtil.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/EnglishUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/winter/ai/Sentence.java" afterPath="$PROJECT_DIR$/src/main/java/me/winter/ai/Sentence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="WinterBot.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/" />
+    <ignored path="out/" />
+    <ignored path="target/" />
+    <manually-removed-from-ignored>
+      <directory path="$PROJECT_DIR$/out/" />
+      <directory path="$PROJECT_DIR$/target/" />
+    </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,12 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Verb.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Verb.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/winter/ai/word/Verb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52992386">
+            <state vertical-scroll-proportion="0.0">
               <caret line="109" column="43" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Command.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/out/production/WinterBot/Command.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#257#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,16 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegularVerb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/winter/ai/word/RegularVerb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -318,10 +246,6 @@
               <option name="myItemId" value="WinterBot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -343,15 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WinterBot" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,9 +281,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="settings.editor.splitter.proportion" value="0.21645446" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
@@ -706,7 +622,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452312012830</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First upload !">
+      <created>1452538222536</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1452538222536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,6 +637,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.50208336" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -727,7 +650,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
@@ -767,14 +689,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/winter/ai/Memory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/winter/ai/EnglishUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1160,9 +1074,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/winter/ai/word/Verb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52992386">
+        <state vertical-scroll-proportion="0.0">
           <caret line="109" column="43" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/WinterBot/Command.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#257#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1233,7 +1157,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.23678161" />
                 <option value="0.6" />
               </list>
             </option>
