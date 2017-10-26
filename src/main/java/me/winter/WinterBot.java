@@ -1,3 +1,5 @@
+package me.winter;
+
 import org.jibble.pircbot.PircBot;
 
 import java.util.ArrayList;
