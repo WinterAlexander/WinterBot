@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>WinterBot</groupId>
-    <artifactId>Verbot</artifactId>
+    <artifactId>WinterBot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -15,8 +15,16 @@
             <version>1.5.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.8.3</version>
+        </dependency>
+
 
     </dependencies>
+
 
     <build>
         <plugins>
@@ -25,8 +33,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -55,5 +63,5 @@
             </resource>
         </resources>
     </build>
-    
+
 </project>

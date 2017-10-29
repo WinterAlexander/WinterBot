@@ -1,4 +1,4 @@
-package me.winter;
+package me.winter.winterbot.command;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,13 +9,13 @@ import java.util.List;
  */
 public abstract class DotCommand implements Command
 {
-	private String name;
-	private List<String> aliases;
+	private final String name;
+	private final List<String> aliases;
 
 	public DotCommand(String name)
 	{
 		this.name = name;
-		this.aliases = new ArrayList<String>();
+		this.aliases = new ArrayList<>();
 	}
 
 	public DotCommand(String name, List<String> aliases)
@@ -25,7 +25,7 @@ public abstract class DotCommand implements Command
 	}
 
 	@Override
-	public boolean doesExecute(String sender, String channel, String fullCommand)
+	public boolean doesExecute(String channel, String sender, String fullCommand)
 	{
 		if(fullCommand.split(" ")[0].equalsIgnoreCase("." + name))
 			return true;

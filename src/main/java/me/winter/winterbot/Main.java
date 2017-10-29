@@ -1,6 +1,5 @@
-package me.winter.ai;
+package me.winter.winterbot;
 
-import me.winter.WinterBot;
 import org.jibble.pircbot.PircBot;
 
 /**
@@ -11,10 +10,9 @@ public class Main
 {
 	public static void main(String[] args) throws Throwable
 	{
-		PircBot bot = new AIBot();
-		//PircBot bot = new WinterBot();
+		PircBot bot = new WinterBot();
 
-		bot.setVerbose(true);
+		//bot.setVerbose(true);
 
 		bot.connect("chat.freenode.net");
 
