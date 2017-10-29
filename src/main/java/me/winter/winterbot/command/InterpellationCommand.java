@@ -8,7 +8,7 @@ public abstract class InterpellationCommand implements Command
 	@Override
 	public boolean doesExecute(String channel, String sender, String message)
 	{
-		return message.toLowerCase().contains(getName().toLowerCase());
+		return message.toLowerCase().startsWith(getName().toLowerCase());
 	}
 
 	public abstract String getName();

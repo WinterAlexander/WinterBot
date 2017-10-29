@@ -2,6 +2,7 @@ package me.winter.winterbot;
 
 import me.winter.winterbot.command.CommandBot;
 import me.winter.winterbot.command.DotCommand;
+import me.winter.winterbot.connect4.Connect4Command;
 import me.winter.winterbot.history.DeleteLogsCommand;
 import me.winter.winterbot.history.HistoryCommand;
 

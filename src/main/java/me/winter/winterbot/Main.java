@@ -17,5 +17,6 @@ public class Main
 		bot.connect("chat.freenode.net");
 
 		bot.joinChannel("#cem");
+		bot.joinChannel("#bots");
 	}
 }
