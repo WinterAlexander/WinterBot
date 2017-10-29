@@ -21,14 +21,7 @@ public class BadBotCommand implements Command
 	{
 		if(message.toLowerCase().contains("bad bot"))
 		{
-			if(sender.toLowerCase().startsWith("loomy"))
-			{
-				bot.sendMessage(channel, "Bad human.");
-			}
-			else
-			{
-				bot.sendMessage(channel, "Sorry. :(");
-			}
+			bot.sendMessage(channel, "Sorry. :(");
 		}
 	}
 }
