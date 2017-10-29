@@ -32,7 +32,6 @@ public class Connect4Game
 
 	public void play(CommandBot bot, String channel, String sender, String message)
 	{
-		System.out.println(Thread.currentThread().getId());
 		if(!sender.equals(firstPlayerPlays ? getPlayer1() : getPlayer2()))
 		{
 			bot.sendMessage(channel, sender + ", it is not your turn to play.");
@@ -70,8 +69,8 @@ public class Connect4Game
 
 			if(wins(val, vIndex))
 			{
-				announceWin(bot, channel);
 				winState = firstPlayerPlays ? 1 : 2;
+				announceWin(bot, channel);
 			}
 			else
 			{
@@ -82,6 +81,10 @@ public class Connect4Game
 		catch(NumberFormatException ex)
 		{
 			bot.sendMessage(channel, sender + ", You must send the column on which you want to play. [1, 7]");
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
 		}
 	}
 
@@ -144,7 +147,7 @@ public class Connect4Game
 			}
 		}
 
-		if(y <= 3)
+		if(y <= 2)
 		{
 			for(int j = y; j < y + 4; j++)
 			{
@@ -155,7 +158,7 @@ public class Connect4Game
 			}
 		}
 
-		if(y >= 3)
+		if(y >= 4)
 		{
 			for(int j = y; j > y - 4; j--)
 			{
@@ -166,7 +169,7 @@ public class Connect4Game
 			}
 		}
 
-		if(x <= 3 && y <= 3)
+		if(x <= 3 && y <= 2)
 		{
 			for(int a = 0; a < 4; a++)
 			{
@@ -177,7 +180,7 @@ public class Connect4Game
 			}
 		}
 
-		if(x >= 3 && y >= 3)
+		if(x >= 3 && y >= 4)
 		{
 			for(int a = 0; a < 4; a++)
 			{
@@ -188,7 +191,7 @@ public class Connect4Game
 			}
 		}
 
-		if(x <= 3 && y >= 3)
+		if(x <= 3 && y >= 4)
 		{
 			for(int a = 0; a < 4; a++)
 			{
@@ -199,7 +202,7 @@ public class Connect4Game
 			}
 		}
 
-		if(x >= 3 && y <= 3)
+		if(x >= 3 && y <= 2)
 		{
 			for(int a = 0; a < 4; a++)
 			{

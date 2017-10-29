@@ -27,7 +27,7 @@ public class CommandBot extends PircBot
 		chatHistory.register(channel, sender, message);
 
 		for(Command command : commands)
-			if(command.doesExecute(channel, sender, message))
+			if(command.doesExecute(this, channel, sender, message))
 				command.execute(this, channel, sender, message);
 	}
 

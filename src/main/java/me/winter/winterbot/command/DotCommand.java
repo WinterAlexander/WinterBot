@@ -25,7 +25,7 @@ public abstract class DotCommand implements Command
 	}
 
 	@Override
-	public boolean doesExecute(String channel, String sender, String fullCommand)
+	public boolean doesExecute(CommandBot bot, String channel, String sender, String fullCommand)
 	{
 		if(fullCommand.split(" ")[0].equalsIgnoreCase("." + name))
 			return true;

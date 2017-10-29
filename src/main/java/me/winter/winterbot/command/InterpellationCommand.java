@@ -6,10 +6,8 @@ package me.winter.winterbot.command;
 public abstract class InterpellationCommand implements Command
 {
 	@Override
-	public boolean doesExecute(String channel, String sender, String message)
+	public boolean doesExecute(CommandBot bot, String channel, String sender, String message)
 	{
-		return message.toLowerCase().startsWith(getName().toLowerCase());
+		return message.toLowerCase().startsWith(bot.getNick().toLowerCase());
 	}
-
-	public abstract String getName();
 }

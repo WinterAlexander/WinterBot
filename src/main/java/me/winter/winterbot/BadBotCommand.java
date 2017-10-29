@@ -11,7 +11,7 @@ import me.winter.winterbot.command.CommandBot;
 public class BadBotCommand implements Command
 {
 	@Override
-	public boolean doesExecute(String channel, String sender, String message)
+	public boolean doesExecute(CommandBot bot, String channel, String sender, String message)
 	{
 		return true;
 	}

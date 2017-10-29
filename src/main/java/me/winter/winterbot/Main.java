@@ -10,9 +10,7 @@ public class Main
 {
 	public static void main(String[] args) throws Throwable
 	{
-		PircBot bot = new WinterBot();
-
-		//bot.setVerbose(true);
+		PircBot bot = new WinterBot(false);
 
 		bot.connect("chat.freenode.net");
 

@@ -11,15 +11,9 @@ import me.winter.winterbot.command.InterpellationCommand;
 public class TalkCommand extends InterpellationCommand
 {
 	@Override
-	public String getName()
-	{
-		return "WinterBot";
-	}
-
-	@Override
 	public void execute(CommandBot bot, String channel, String sender, String fullCommand)
 	{
-		String message = fullCommand.replaceAll("(.)*WinterBot([,:])?(\\s)*", "");
+		String message = fullCommand.replaceAll("(.)*" + bot.getNick() + "([,:])?(\\s)*", "");
 
 		if(message.matches("(?i)are you available(.)*"))
 		{
@@ -75,7 +69,7 @@ public class TalkCommand extends InterpellationCommand
 				return;
 			}
 
-			bot.sendMessage(channel, "I don't know SORRY don't hit me again :'(");
+			bot.sendMessage(channel, "Sorry, I don't know what you are talking about.");
 			return;
 		}
 		else if(sender.equalsIgnoreCase("Z750"))
@@ -130,7 +124,7 @@ public class TalkCommand extends InterpellationCommand
 				return;
 			}
 
-			bot.sendMessage(channel, "Idk");
+			bot.sendMessage(channel, "Whatever");
 			return;
 		}
 	}

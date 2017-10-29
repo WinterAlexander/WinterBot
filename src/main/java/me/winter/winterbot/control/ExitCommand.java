@@ -1,4 +1,4 @@
-package me.winter.winterbot;
+package me.winter.winterbot.control;
 
 import me.winter.winterbot.command.CommandBot;
 import me.winter.winterbot.command.DotCommand;

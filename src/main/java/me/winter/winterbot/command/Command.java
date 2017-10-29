@@ -6,7 +6,7 @@ package me.winter.winterbot.command;
  */
 public interface Command
 {
-	boolean doesExecute(String channel, String sender, String message);
+	boolean doesExecute(CommandBot bot, String channel, String sender, String message);
 
 	void execute(CommandBot bot, String channel, String sender, String message);
 }
