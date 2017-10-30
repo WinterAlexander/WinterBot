@@ -9,6 +9,7 @@ import me.winter.winterbot.control.LeaveCommand;
 import me.winter.winterbot.control.NickCommand;
 import me.winter.winterbot.history.DeleteLogsCommand;
 import me.winter.winterbot.history.HistoryCommand;
+import org.jibble.pircbot.User;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -47,6 +48,29 @@ public class WinterBot extends CommandBot
 			public void execute(CommandBot bot, String channel, String sender, String message)
 			{
 				sendMessage(channel, bot.getUsers(channel)[new Random().nextInt(bot.getUsers(channel).length)] + " dies.");
+			}
+		});
+
+
+		commands.add(new DotCommand("pingall", Arrays.asList("whoishere"))
+		{
+			@Override
+			public void execute(CommandBot bot, String channel, String sender, String message)
+			{
+				StringBuilder sb = new StringBuilder();
+
+				for(User user : bot.getUsers(channel))
+				{
+					sb.append(user.getNick()).append(" ");
+
+					if(sb.length() > 400)
+					{
+						sendMessage(channel, sb.toString());
+						sb.setLength(0);
+					}
+				}
+
+				sendMessage(channel, sb.toString());
 			}
 		});
 
