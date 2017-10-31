@@ -1,10 +1,6 @@
 package me.winter.winterbot.bridge;
 
-import me.winter.winterbot.command.Command;
-import org.jibble.pircbot.IrcException;
 import org.jibble.pircbot.PircBot;
-
-import java.util.Scanner;
 
 /**
  * Undocumented :(
@@ -35,7 +31,7 @@ public class Bridge
 
 		botB = new PircBot() {
 			{
-				setName("Bridge_Bitlee_1309120923");
+				setName("Winter_");
 			}
 
 			@Override
@@ -48,15 +44,15 @@ public class Bridge
 			}
 		};
 
-		botB.setVerbose(true);
+		//botB.setVerbose(true);
 		botB.connect(networkB);
 		//botB.sendMessage("&bitlbee", "register psswd");
 		botB.sendMessage("&bitlbee", "identify psswd");
 		//botB.sendMessage("&bitlbee", "account list");
 		//botB.sendMessage("&bitlbee", "account add facebook mail psswd");
-		botB.sendMessage("&bitlbee", "account facebook on");
-		Thread.sleep(10000);
-		botB.sendMessage("&bitlbee", "chat add facebook 1612849258735422 #cem");
+		//botB.sendMessage("&bitlbee", "account facebook on");
+		//Thread.sleep(10000);
+		//botB.sendMessage("&bitlbee", "chat add facebook 1612849258735422 #cem");
 		botB.joinChannel(channelB);
 	}
 
